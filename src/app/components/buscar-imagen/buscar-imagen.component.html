@@ -1,0 +1,16 @@
+<div class="card mb-5">
+    <div class="card-body">
+        <form (submit) = "buscarImagenes()">
+            <div class="row mt-3">
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <input name="nombreImg" type="text" class="form-control"  placeholder="Busca una imagen..." [(ngModel)] = 'nombreImagen'>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">BUSCAR</button>
+                </div>
+            </div>
+      </form>
+    </div>
+</div>
